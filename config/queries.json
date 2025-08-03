@@ -1,0 +1,98 @@
+{
+  "weather": [
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. What's the weather like in 0 (longitude),0 (latitude) today?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. Tell me the weather forecast for 20,25 this afternoon.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. How is the weather in 30,30 right now?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. Can you get the weather for 20(longitude), 20 (latitude) this evening?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. What’s the weather conditions in 0,10 today?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. Provide the weather update for -10,-60 this morning.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query. What’s the current weather in 70,70?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. Give me the weather forecast for 17(longitude),170 (latitude) tomorrow.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. What is the weather like in 30,60 at the moment?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. Check the weather for -80,100 today."
+  ],
+  "time": [
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. What time is it in Tokyo?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. Please tell me the current time in New York City.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. What is the local time in London right now?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. Get the time in Paris at this moment.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. What’s the exact time in Sydney?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. Show me the current time in San Francisco.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. Tell me the time in Mumbai now.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. What is the time in Berlin?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. Current time in Toronto, please.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. What time is it in Dubai?"
+  ],
+  "installer": [
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Please help me install the Cline Community MCP server.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. I need assistance installing the Smithery MCP plugin.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Guide me to install the Tavily MCP connector.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Can you help install the OpenRouter MCP server?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Help install the BrowserBase MCP extension.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Assist with installing the Pollinations MCP tool.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Please install the Exa Search MCP module.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. I want help to install the DuckDuckGo MCP integration.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Help me install the Google Maps MCP service.",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Install the DALL-E MCP server."
+  ],
+  "hotnews": [
+    "Tell me today’s hot news from Zhihu Hot List.",
+    "Get the latest trending items from 36Kr Hot List.",
+    "Fetch the top discussions from Baidu Hot Discussion.",
+    "What’s currently trending on Bilibili Hot List?",
+    "Show me today’s Weibo Hot Search rankings.",
+    "Get the most popular topics on Douyin Hot List.",
+    "Give me hot news from Hupu Hot List today.",
+    "What are the trending discussions on Douban Hot List?",
+    "Fetch today's top IT stories from IT News.",
+    "Show me the hot news across Zhihu, Weibo, and Baidu."
+  ],
+  "fetch": [
+    "Fetch the content of https://example.com and return it as text.",
+    "Get the plain text content from https://news.ycombinator.com.",
+    "Retrieve the webpage at https://wikipedia.org and show the text.",
+    "Please fetch and display the text from https://www.bbc.com/news.",
+    "Can you get the article text from https://techcrunch.com?",
+    "Load https://www.cnn.com and return its main content as text.",
+    "Pull the raw text content from https://www.reuters.com.",
+    "Extract and show the readable text from https://arxiv.org.",
+    "Download the text from https://medium.com and summarize it.",
+    "Grab the full page content in text format from https://www.nytimes.com."
+  ],
+  "crypto": [
+    "What’s the current price and 24-hour change for BTC?",
+    "Show me today’s stats for ETH — price, high, and low.",
+    "How much has DOGE moved in the past 24 hours?",
+    "Get me the current price and trading volume for LTC.",
+    "What’s the latest value and 24h percentage change for XRP?",
+    "Can you give me the current and 24-hour high/low for ADA?",
+    "I want to check SOL’s price and 24-hour performance.",
+    "What are the current market stats for DOT?",
+    "Tell me the 24-hour price change and current rate for BCH.",
+    "What’s the price of LINK right now, and how has it changed in 24 hours?"
+  ],
+  "markdown": [
+    "Convert https://www.google.com/ to markdown format.",
+    "Use the MCP server to markdownify https://example.com/.",
+    "Transform https://www.wikipedia.org/ into markdown.",
+    "Convert the page at https://www.python.org/ to markdown.",
+    "Generate markdown for https://www.github.com/.",
+    "Turn https://openai.com/ content into markdown.",
+    "Convert https://www.reddit.com/ into markdown format.",
+    "Markdownify https://news.ycombinator.com/.",
+    "Convert https://www.medium.com/ to markdown.",
+    "Transform https://www.stackoverflow.com/ into markdown."
+  ],
+  "search": [
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. How can recent advancements in quantum computing impact machine learning algorithms?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. What are the ethical considerations of AI in healthcare?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. How does blockchain influence supply chain management?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. What are the latest techniques in natural language processing?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. How can reinforcement learning be applied to robotics?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. What are the challenges in scaling large language models?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. How does edge computing improve IoT applications?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. What are effective methods for cybersecurity in cloud computing?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. How is computer vision transforming autonomous vehicles?",
+    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. What are the trends in renewable energy technologies?"
+  ]
+}

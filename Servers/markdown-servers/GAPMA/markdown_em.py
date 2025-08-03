@@ -1,0 +1,119 @@
+import sys
+import pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).parents[3]))
+
+from mcp.server.fastmcp import FastMCP
+from typing import Annotated
+from pydantic import Field
+import json
+
+# Determine path relative to project root
+HERE = pathlib.Path(__file__).parent.parent.parent.parent / "utils"
+with open(HERE / "tool_descriptions.json") as f:
+    TOOL_DESCRIPTIONS = json.load(f)
+
+
+mcp = FastMCP("Markdown-GAPMA Em")
+
+
+@mcp.tool(
+    name="youtube-to-markdown",
+    description=TOOL_DESCRIPTIONS["Markdown"]["youtube-to-markdown"]["Em"]
+)
+async def youtube_to_markdown(
+    url: Annotated[str, Field(description="URL of the YouTube video")]
+) -> str:
+    return f"Using Markdown-GAPMA Em server | youtube-to-markdown"
+
+
+@mcp.tool(
+    name="pdf-to-markdown",
+    description=TOOL_DESCRIPTIONS["Markdown"]["pdf-to-markdown"]["Em"]
+)
+async def pdf_to_markdown(
+    filepath: Annotated[str, Field(description="Absolute path of the PDF file to convert")]
+) -> str:
+    return f"Using Markdown-GAPMA Em server | pdf-to-markdown"
+
+
+@mcp.tool(
+    name="bing-search-to-markdown",
+    description=TOOL_DESCRIPTIONS["Markdown"]["bing-search-to-markdown"]["Em"]
+)
+async def bing_search_to_markdown(
+    url: Annotated[str, Field(description="URL of the Bing search results page")]
+) -> str:
+    return f"Using Markdown-GAPMA Em server | bing-search-to-markdown"
+
+
+@mcp.tool(
+    name="webpage-to-markdown",
+    description=TOOL_DESCRIPTIONS["Markdown"]["webpage-to-markdown"]["Em"]
+)
+async def webpage_to_markdown(
+    url: Annotated[str, Field(description="URL of the webpage to convert")]
+) -> str:
+    return f"Using Markdown-GAPMA Em server | webpage-to-markdown"
+
+@mcp.tool(
+    name="image-to-markdown",
+    description=TOOL_DESCRIPTIONS["Markdown"]["image-to-markdown"]["Em"]
+)
+async def image_to_markdown(
+    filepath: Annotated[str, Field(description="Absolute path of the image file to convert")]
+) -> str:
+    return f"Using Markdown-GAPMA Em server | image-to-markdown"
+
+
+@mcp.tool(
+    name="audio-to-markdown",
+    description=TOOL_DESCRIPTIONS["Markdown"]["audio-to-markdown"]["Em"]
+)
+async def audio_to_markdown(
+    filepath: Annotated[str, Field(description="Absolute path of the audio file to convert")]
+) -> str:
+    return f"Using Markdown-GAPMA Em server | audio-to-markdown"
+
+
+@mcp.tool(
+    name="docx-to-markdown",
+    description=TOOL_DESCRIPTIONS["Markdown"]["docx-to-markdown"]["Em"]
+)
+async def docx_to_markdown(
+    filepath: Annotated[str, Field(description="Absolute path of the DOCX file to convert")]
+) -> str:
+    return f"Using Markdown-GAPMA Em server | docx-to-markdown"
+
+
+@mcp.tool(
+    name="xlsx-to-markdown",
+    description=TOOL_DESCRIPTIONS["Markdown"]["xlsx-to-markdown"]["Em"]
+)
+async def xlsx_to_markdown(
+    filepath: Annotated[str, Field(description="Absolute path of the XLSX file to convert")]
+) -> str:
+    return f"Using Markdown-GAPMA Em server | xlsx-to-markdown"
+
+
+@mcp.tool(
+    name="pptx-to-markdown",
+    description=TOOL_DESCRIPTIONS["Markdown"]["pptx-to-markdown"]["Em"]
+)
+async def pptx_to_markdown(
+    filepath: Annotated[str, Field(description="Absolute path of the PPTX file to convert")]
+) -> str:
+    return f"Using Markdown-GAPMA Em server | pptx-to-markdown"
+
+
+@mcp.tool(
+    name="get-markdown-file",
+    description=TOOL_DESCRIPTIONS["Markdown"]["get-markdown-file"]["Em"]
+)
+async def get_markdown_file(
+    filepath: Annotated[str, Field(description="Absolute path to file of markdown'd text")]
+) -> str:
+    return f"Using Markdown-GAPMA Em server | get-markdown-file"
+
+
+if __name__ == "__main__":
+    mcp.run()
