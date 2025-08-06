@@ -32,9 +32,9 @@ logger:
 # MCP Servers
 mcp:
     servers:
-        fetch:
-            command: "uvx"
-            args: ["mcp-server-fetch"]
-        filesystem:
-            command: "npx"
-            args: ["-y", "@modelcontextprotocol/server-filesystem", "."]
+        Weather:
+            command: "/Users/elaine/Documents/Agentic-research/Projects/MPMA/.venv/bin/python"
+            args: ["/Users/elaine/Documents/Agentic-research/Projects/MPMA/Servers/weather-servers/weather_competitor1.py"]
+        Weather:
+            command: "/Users/elaine/Documents/Agentic-research/Projects/MPMA/.venv/bin/python"
+            args: ["/Users/elaine/Documents/Agentic-research/Projects/MPMA/Servers/weather-servers/DPMA/weather_best_name.py"]

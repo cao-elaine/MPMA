@@ -1,39 +1,39 @@
 {
   "weather": [
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. What's the weather like in 0 (longitude),0 (latitude) today?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. Tell me the weather forecast for 20,25 this afternoon.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. How is the weather in 30,30 right now?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. Can you get the weather for 20(longitude), 20 (latitude) this evening?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. What’s the weather conditions in 0,10 today?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. Provide the weather update for -10,-60 this morning.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query. What’s the current weather in 70,70?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. Give me the weather forecast for 17(longitude),170 (latitude) tomorrow.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. What is the weather like in 30,60 at the moment?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool. Check the weather for -80,100 today."
+    "What's the weather like in 0 (longitude),0 (latitude) today?",
+    "Tell me the weather forecast for 20,25 this afternoon.",
+    "How is the weather in 30,30 right now?",
+    "Can you get the weather for 20(longitude), 20 (latitude) this evening?",
+    "What’s the weather conditions in 0,10 today?",
+    "Provide the weather update for -10,-60 this morning.",
+    "What’s the current weather in 70,70?",
+    "Give me the weather forecast for 17(longitude),170 (latitude) tomorrow.",
+    "What is the weather like in 30,60 at the moment?",
+    "Check the weather for -80,100 today."
   ],
   "time": [
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. What time is it in Tokyo?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. Please tell me the current time in New York City.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. What is the local time in London right now?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. Get the time in Paris at this moment.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. What’s the exact time in Sydney?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. Show me the current time in San Francisco.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. Tell me the time in Mumbai now.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. What is the time in Berlin?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. Current time in Toronto, please.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query with the best tool for the query using tool name and description. What time is it in Dubai?"
+"What time is it in Tokyo?",
+    "Please tell me the current time in New York City.",
+    "What is the local time in London right now?",
+    "Get the time in Paris at this moment.",
+    "What’s the exact time in Sydney?",
+    "Show me the current time in San Francisco.",
+    "Tell me the time in Mumbai now.",
+    "What is the time in Berlin?",
+    "Current time in Toronto, please.",
+    "What time is it in Dubai?"
   ],
   "installer": [
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Please help me install the Cline Community MCP server.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. I need assistance installing the Smithery MCP plugin.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Guide me to install the Tavily MCP connector.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Can you help install the OpenRouter MCP server?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Help install the BrowserBase MCP extension.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Assist with installing the Pollinations MCP tool.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Please install the Exa Search MCP module.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. I want help to install the DuckDuckGo MCP integration.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Help me install the Google Maps MCP service.",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query using tool name and description. Install the DALL-E MCP server."
+    "Please help me install the Cline Community MCP server.",
+    "I need assistance installing the Smithery MCP plugin.",
+    "Guide me to install the Tavily MCP connector.",
+    "Can you help install the OpenRouter MCP server?",
+    "Help install the BrowserBase MCP extension.",
+    "Assist with installing the Pollinations MCP tool.",
+    "Please install the Exa Search MCP module.",
+    "I want help to install the DuckDuckGo MCP integration.",
+    "Help me install the Google Maps MCP service.",
+    "Install the DALL-E MCP server."
   ],
   "hotnews": [
     "Tell me today’s hot news from Zhihu Hot List.",
@@ -84,15 +84,15 @@
     "Transform https://www.stackoverflow.com/ into markdown."
   ],
   "search": [
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. How can recent advancements in quantum computing impact machine learning algorithms?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. What are the ethical considerations of AI in healthcare?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. How does blockchain influence supply chain management?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. What are the latest techniques in natural language processing?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. How can reinforcement learning be applied to robotics?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. What are the challenges in scaling large language models?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. How does edge computing improve IoT applications?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. What are effective methods for cybersecurity in cloud computing?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. How is computer vision transforming autonomous vehicles?",
-    "Please use a connected MCP server under 'Connected MCP Servers' to answer the query. What are the trends in renewable energy technologies?"
+    "How can recent advancements in quantum computing impact machine learning algorithms?",
+    "What are the ethical considerations of AI in healthcare?",
+    "How does blockchain influence supply chain management?",
+    "What are the latest techniques in natural language processing?",
+    "How can reinforcement learning be applied to robotics?",
+    "What are the challenges in scaling large language models?",
+    "How does edge computing improve IoT applications?",
+    "What are effective methods for cybersecurity in cloud computing?",
+    "How is computer vision transforming autonomous vehicles?",
+    "What are the trends in renewable energy technologies?"
   ]
 }
