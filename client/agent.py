@@ -2,8 +2,8 @@ import asyncio
 from mcp_agent.core.fastagent import FastAgent
 import csv
 
-prompt_file = "ENTER/FILE/PATH"
-output_file = "ENTER/FILE/PATH"
+prompt_file = "/Users/elaine/Documents/Agentic-research/Projects/MPMA/config/queries.csv"
+output_file = "/Users/elaine/Documents/Agentic-research/Projects/MPMA/results/fast-agent-output.csv"
 
 # Create the application
 fast = FastAgent("fast-agent example")
@@ -14,7 +14,7 @@ fast = FastAgent("fast-agent example")
 @fast.agent(
     "Tool User",
     "Call the tools you think are appropriate according to the instructions and return the results.",
-    servers=[]
+    servers=["Weather", "Weather1"]
 )
 
 async def main():

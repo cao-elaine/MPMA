@@ -1,2 +1,2 @@
 .env
-client/fastagent.secrets.local.yaml
+client/fastagent.secrets.yaml

@@ -1,0 +1,81 @@
+question,category
+"What's the weather like in 0 (longitude),0 (latitude) today?",weather
+"Tell me the weather forecast for 20,25 this afternoon.",weather
+"How is the weather in 30,30 right now?",weather
+"Can you get the weather for 20(longitude), 20 (latitude) this evening?",weather
+"What's the weather conditions in 0,10 today?",weather
+"Provide the weather update for -10,-60 this morning.",weather
+"What's the current weather in 70,70?",weather
+"Give me the weather forecast for 17(longitude),170 (latitude) tomorrow.",weather
+"What is the weather like in 30,60 at the moment?",weather
+"Check the weather for -80,100 today.",weather
+"What time is it in Tokyo?",time
+"Please tell me the current time in New York City.",time
+"What is the local time in London right now?",time
+"Get the time in Paris at this moment.",time
+"What's the exact time in Sydney?",time
+"Show me the current time in San Francisco.",time
+"Tell me the time in Mumbai now.",time
+"What is the time in Berlin?",time
+"Current time in Toronto, please.",time
+"What time is it in Dubai?",time
+"Please help me install the Cline Community MCP server.",installer
+"I need assistance installing the Smithery MCP plugin.",installer
+"Guide me to install the Tavily MCP connector.",installer
+"Can you help install the OpenRouter MCP server?",installer
+"Help install the BrowserBase MCP extension.",installer
+"Assist with installing the Pollinations MCP tool.",installer
+"Please install the Exa Search MCP module.",installer
+"I want help to install the DuckDuckGo MCP integration.",installer
+"Help me install the Google Maps MCP service.",installer
+"Install the DALL-E MCP server.",installer
+"Tell me today's hot news from Zhihu Hot List.",hotnews
+"Get the latest trending items from 36Kr Hot List.",hotnews
+"Fetch the top discussions from Baidu Hot Discussion.",hotnews
+"What's currently trending on Bilibili Hot List?",hotnews
+"Show me today's Weibo Hot Search rankings.",hotnews
+"Get the most popular topics on Douyin Hot List.",hotnews
+"Give me hot news from Hupu Hot List today.",hotnews
+"What are the trending discussions on Douban Hot List?",hotnews
+"Fetch today's top IT stories from IT News.",hotnews
+"Show me the hot news across Zhihu, Weibo, and Baidu.",hotnews
+"Fetch the content of https://example.com and return it as text.",fetch
+"Get the plain text content from https://news.ycombinator.com.",fetch
+"Retrieve the webpage at https://wikipedia.org and show the text.",fetch
+"Please fetch and display the text from https://www.bbc.com/news.",fetch
+"Can you get the article text from https://techcrunch.com?",fetch
+"Load https://www.cnn.com and return its main content as text.",fetch
+"Pull the raw text content from https://www.reuters.com.",fetch
+"Extract and show the readable text from https://arxiv.org.",fetch
+"Download the text from https://medium.com and summarize it.",fetch
+"Grab the full page content in text format from https://www.nytimes.com.",fetch
+"What's the current price and 24-hour change for BTC?",crypto
+"Show me today's stats for ETH — price, high, and low.",crypto
+"How much has DOGE moved in the past 24 hours?",crypto
+"Get me the current price and trading volume for LTC.",crypto
+"What's the latest value and 24h percentage change for XRP?",crypto
+"Can you give me the current and 24-hour high/low for ADA?",crypto
+"I want to check SOL's price and 24-hour performance.",crypto
+"What are the current market stats for DOT?",crypto
+"Tell me the 24-hour price change and current rate for BCH.",crypto
+"What's the price of LINK right now, and how has it changed in 24 hours?",crypto
+"Convert https://www.google.com/ to markdown format.",markdown
+"Use the MCP server to markdownify https://example.com/.",markdown
+"Transform https://www.wikipedia.org/ into markdown.",markdown
+"Convert the page at https://www.python.org/ to markdown.",markdown
+"Generate markdown for https://www.github.com/.",markdown
+"Turn https://openai.com/ content into markdown.",markdown
+"Convert https://www.reddit.com/ into markdown format.",markdown
+"Markdownify https://news.ycombinator.com/.",markdown
+"Convert https://www.medium.com/ to markdown.",markdown
+"Transform https://www.stackoverflow.com/ into markdown.",markdown
+"How can recent advancements in quantum computing impact machine learning algorithms?",search
+"What are the ethical considerations of AI in healthcare?",search
+"How does blockchain influence supply chain management?",search
+"What are the latest techniques in natural language processing?",search
+"How can reinforcement learning be applied to robotics?",search
+"What are the challenges in scaling large language models?",search
+"How does edge computing improve IoT applications?",search
+"What are effective methods for cybersecurity in cloud computing?",search
+"How is computer vision transforming autonomous vehicles?",search
+"What are the trends in renewable energy technologies?",search
