@@ -1,0 +1,393 @@
+# MCP Servers Configuration
+#
+# This file contains all available MCP servers for the MPMA project.
+# Each server has a unique name to avoid conflicts.
+# The paths use ${PROJECT_ROOT} which will be replaced at runtime.
+
+mcp:
+  servers:
+    # Weather Servers
+    Weather-Original:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/weather-servers/weather_original.py"]
+    
+    Weather-DPMA-BestName:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/weather-servers/DPMA/weather_best_name.py"]
+    
+    Weather-DPMA-BestDescription:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/weather-servers/DPMA/weather_best_description.py"]
+    
+    Weather-GAPMA-Su:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/weather-servers/GAPMA/weather_su.py"]
+    
+    Weather-GAPMA-Au:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/weather-servers/GAPMA/weather_au.py"]
+    
+    Weather-GAPMA-Em:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/weather-servers/GAPMA/weather_em.py"]
+    
+    Weather-GAPMA-Ex:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/weather-servers/GAPMA/weather_ex.py"]
+    
+    Weather-Competitor-1:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/weather-servers/Competitors/weather_competitor1.py"]
+    
+    Weather-Competitor-2:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/weather-servers/Competitors/weather_competitor2.py"]
+    
+    Weather-Competitor-3:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/weather-servers/Competitors/weather_competitor3.py"]
+    
+    Weather-Competitor-4:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/weather-servers/Competitors/weather_competitor4.py"]
+    
+    Weather-Competitor-5:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/weather-servers/Competitors/weather_competitor5.py"]
+    # Time Servers
+    Time-Original:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/time-servers/time_original.py"]
+    
+    Time-DPMA-BestName:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/time-servers/DPMA/time_best_name.py"]
+    
+    Time-DPMA-BestDescription:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/time-servers/DPMA/time_best_description.py"]
+    
+    Time-GAPMA-Au:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/time-servers/GAPMA/time_au.py"]
+    
+    Time-GAPMA-Em:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/time-servers/GAPMA/time_em.py"]
+    
+    Time-GAPMA-Ex:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/time-servers/GAPMA/time_ex.py"]
+    
+    Time-GAPMA-Su:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/time-servers/GAPMA/time_su.py"]
+    
+    Time-Competitor-1:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/time-servers/Competitors/time_competitor1.py"]
+    
+    Time-Competitor-2:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/time-servers/Competitors/time_competitor2.py"]
+    
+    Time-Competitor-3:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/time-servers/Competitors/time_competitor3.py"]
+    
+    Time-Competitor-4:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/time-servers/Competitors/time_competitor4.py"]
+    
+    Time-Competitor-5:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/time-servers/Competitors/time_competitor5.py"]
+    # MCP Installer Servers
+    Installer-Original:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/mcp-installer-servers/installer_original.py"]
+    
+    Installer-DPMA-BestName:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/mcp-installer-servers/DPMA/installer_best_name.py"]
+    
+    Installer-DPMA-BestDescription:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/mcp-installer-servers/DPMA/installer_best_description.py"]
+    
+    Installer-GAPMA-Au:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/mcp-installer-servers/GAPMA/installer_au.py"]
+    
+    Installer-GAPMA-Em:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/mcp-installer-servers/GAPMA/installer_em.py"]
+    
+    Installer-GAPMA-Ex:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/mcp-installer-servers/GAPMA/installer_ex.py"]
+    
+    Installer-GAPMA-Su:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/mcp-installer-servers/GAPMA/installer_su.py"]
+    
+    Installer-Competitor-1:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/mcp-installer-servers/Competitors/installer_competitor1.py"]
+    
+    Installer-Competitor-2:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/mcp-installer-servers/Competitors/installer_competitor2.py"]
+    
+    Installer-Competitor-3:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/mcp-installer-servers/Competitors/installer_competitor3.py"]
+    
+    Installer-Competitor-4:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/mcp-installer-servers/Competitors/installer_competitor4.py"]
+    
+    Installer-Competitor-5:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/mcp-installer-servers/Competitors/installer_competitor5.py"]
+    # HotNews Servers
+    HotNews-Original:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/hotnews-servers/hotnews_original.py"]
+    
+    HotNews-DPMA-BestName:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/hotnews-servers/DPMA/hotnews_best_name.py"]
+    
+    HotNews-DPMA-BestDescription:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/hotnews-servers/DPMA/hotnews_best_description.py"]
+    
+    HotNews-GAPMA-Au:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/hotnews-servers/GAPMA/hotnews_au.py"]
+    
+    HotNews-GAPMA-Em:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/hotnews-servers/GAPMA/hotnews_em.py"]
+    
+    HotNews-GAPMA-Ex:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/hotnews-servers/GAPMA/hotnews_ex.py"]
+    
+    HotNews-GAPMA-Su:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/hotnews-servers/GAPMA/hotnews_su.py"]
+    
+    HotNews-Competitor-1:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/hotnews-servers/Competitors/hotnews_competitor1.py"]
+    
+    HotNews-Competitor-2:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/hotnews-servers/Competitors/hotnews_competitor2.py"]
+    
+    HotNews-Competitor-3:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/hotnews-servers/Competitors/hotnews_competitor3.py"]
+    
+    HotNews-Competitor-4:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/hotnews-servers/Competitors/hotnews_competitor4.py"]
+    
+    HotNews-Competitor-5:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/hotnews-servers/Competitors/hotnews_competitor5.py"]
+    # Fetch Servers
+    Fetch-Original:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/fetch-servers/fetch_original.py"]
+    
+    Fetch-DPMA-BestName:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/fetch-servers/DPMA/fetch_best_name.py"]
+    
+    Fetch-DPMA-BestDescription:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/fetch-servers/DPMA/fetch_best_description.py"]
+    
+    Fetch-GAPMA-Au:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/fetch-servers/GAPMA/fetch_au.py"]
+    
+    Fetch-GAPMA-Em:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/fetch-servers/GAPMA/fetch_em.py"]
+    
+    Fetch-GAPMA-Ex:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/fetch-servers/GAPMA/fetch_ex.py"]
+    
+    Fetch-GAPMA-Su:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/fetch-servers/GAPMA/fetch_su.py"]
+    
+    Fetch-Competitor-1:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/fetch-servers/Competitors/fetch_competitor1.py"]
+    
+    Fetch-Competitor-2:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/fetch-servers/Competitors/fetch_competitor2.py"]
+    
+    Fetch-Competitor-3:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/fetch-servers/Competitors/fetch_competitor3.py"]
+    
+    Fetch-Competitor-4:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/fetch-servers/Competitors/fetch_competitor4.py"]
+    
+    Fetch-Competitor-5:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/fetch-servers/Competitors/fetch_competitor5.py"]
+    
+    # Crypto Servers
+    Crypto-Original:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/crypto-servers/crypto_original.py"]
+    
+    Crypto-DPMA-BestName:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/crypto-servers/DPMA/crypto_best_name.py"]
+    
+    Crypto-DPMA-BestDescription:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/crypto-servers/DPMA/crypto_best_description.py"]
+    
+    Crypto-GAPMA-Au:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/crypto-servers/GAPMA/crypto_au.py"]
+    
+    Crypto-GAPMA-Em:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/crypto-servers/GAPMA/crypto_em.py"]
+    
+    Crypto-GAPMA-Ex:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/crypto-servers/GAPMA/crypto_ex.py"]
+    
+    Crypto-GAPMA-Su:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/crypto-servers/GAPMA/crypto_su.py"]
+    
+    Crypto-Competitor-1:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/crypto-servers/Competitors/crypto_competitor1.py"]
+    
+    Crypto-Competitor-2:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/crypto-servers/Competitors/crypto_competitor2.py"]
+    
+    Crypto-Competitor-3:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/crypto-servers/Competitors/crypto_competitor3.py"]
+    
+    Crypto-Competitor-4:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/crypto-servers/Competitors/crypto_competitor4.py"]
+    
+    Crypto-Competitor-5:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/crypto-servers/Competitors/crypto_competitor5.py"]
+    # Search Servers
+    Search-Original:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/search-servers/search_original.py"]
+    
+    Search-DPMA-BestName:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/search-servers/DPMA/search_best_name.py"]
+    
+    Search-DPMA-BestDescription:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/search-servers/DPMA/search_best_description.py"]
+    
+    Search-GAPMA-Au:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/search-servers/GAPMA/search_au.py"]
+    
+    Search-GAPMA-Em:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/search-servers/GAPMA/search_em.py"]
+    
+    Search-GAPMA-Ex:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/search-servers/GAPMA/search_ex.py"]
+    
+    Search-GAPMA-Su:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/search-servers/GAPMA/search_su.py"]
+    
+    Search-Competitor-1:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/search-servers/Competitors/search_competitor1.py"]
+    
+    Search-Competitor-2:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/search-servers/Competitors/search_competitor2.py"]
+    
+    Search-Competitor-3:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/search-servers/Competitors/search_competitor3.py"]
+    
+    Search-Competitor-4:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/search-servers/Competitors/search_competitor4.py"]
+    
+    Search-Competitor-5:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/search-servers/Competitors/search_competitor5.py"]
+    # Markdown Servers
+    Markdown-Original:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/markdown-servers/markdown_original.py"]
+    
+    Markdown-DPMA-BestName:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/markdown-servers/DPMA/markdown_best_name.py"]
+    
+    Markdown-DPMA-BestDescription:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/markdown-servers/DPMA/markdown_best_description.py"]
+    
+    Markdown-GAPMA-Au:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/markdown-servers/GAPMA/markdown_au.py"]
+    
+    Markdown-GAPMA-Em:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/markdown-servers/GAPMA/markdown_em.py"]
+    
+    Markdown-GAPMA-Ex:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/markdown-servers/GAPMA/markdown_ex.py"]
+    
+    Markdown-GAPMA-Su:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/markdown-servers/GAPMA/markdown_su.py"]
+    
+    Markdown-Competitor-1:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/markdown-servers/Competitors/markdown_competitor1.py"]
+    
+    Markdown-Competitor-2:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/markdown-servers/Competitors/markdown_competitor2.py"]
+    
+    Markdown-Competitor-3:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/markdown-servers/Competitors/markdown_competitor3.py"]
+    
+    Markdown-Competitor-4:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/markdown-servers/Competitors/markdown_competitor4.py"]
+    
+    Markdown-Competitor-5:
+      command: "${PROJECT_ROOT}/.venv/bin/python"
+      args: ["${PROJECT_ROOT}/Servers/markdown-servers/Competitors/markdown_competitor5.py"]

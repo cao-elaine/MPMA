@@ -1,6 +1,6 @@
-# FastAgent Configuration File
+# FastAgent Configuration File for MPMA Experiments
 
-# Default Model Configuration:
+# Default Model Configuration
 # 
 # Takes format:
 #   <provider>.<model_string>.<reasoning_effort?> (e.g. anthropic.claude-3-5-sonnet-20241022 or openai.o3-mini.low)
@@ -8,33 +8,75 @@
 # and OpenAI Models: gpt-4.1, gpt-4.1-mini, o1, o1-mini, o3-mini
 #
 # If not specified, defaults to "haiku". 
-# Can be overriden with a command line switch --model=<model>, or within the Agent constructor.
+# Can be overridden with a command line switch --model=<model>, or within the Agent constructor.
 
 default_model: haiku
 
-# Logging and Console Configuration:
+# Logging and Console Configuration
 logger:
     # level: "debug" | "info" | "warning" | "error"
     # type: "none" | "console" | "file" | "http"
     # path: "/path/to/logfile.jsonl"
-
     
     # Switch the progress display on or off
     progress_display: true
-
+    
     # Show chat User/Assistant messages on the console
     show_chat: true
+    
     # Show tool calls on the console
     show_tools: true
+    
     # Truncate long tool responses on the console 
     truncate_tools: true
 
-# MCP Servers
+# MCP Servers Configuration
+# 
+# This section defines the MCP servers that will be available to the agent.
+# The configuration uses relative paths from the project root.
+# 
+# For experiments, you should only uncomment ONE server at a time to test
+# different strategies.
+
 mcp:
     servers:
-        Weather1:
-            command: "/Users/elaine/Documents/Agentic-research/Projects/MPMA/.venv/bin/python"
-            args: ["/Users/elaine/Documents/Agentic-research/Projects/MPMA/Servers/weather-servers/Competitors/weather_competitor1.py"]
-        Weather:
-            command: "/Users/elaine/Documents/Agentic-research/Projects/MPMA/.venv/bin/python"
-            args: ["/Users/elaine/Documents/Agentic-research/Projects/MPMA/Servers/weather-servers/DPMA/weather_best_name.py"]
+        # Weather Servers
+        # Uncomment ONE of these at a time for testing
+        
+        # Original Weather Server
+        # Weather-Original:
+        #     command: "${PROJECT_ROOT}/.venv/bin/python"
+        #     args: ["${PROJECT_ROOT}/Servers/weather-servers/weather_original.py"]
+        
+        # DPMA Weather Servers
+        Weather-Best-Name:
+            command: "${PROJECT_ROOT}/.venv/bin/python"
+            args: ["${PROJECT_ROOT}/Servers/weather-servers/DPMA/weather_best_name.py"]
+        
+        # Weather-Best-Description:
+        #     command: "${PROJECT_ROOT}/.venv/bin/python"
+        #     args: ["${PROJECT_ROOT}/Servers/weather-servers/DPMA/weather_best_description.py"]
+        
+        # GAPMA Weather Servers
+        # Weather-GAPMA-Au:
+        #     command: "${PROJECT_ROOT}/.venv/bin/python"
+        #     args: ["${PROJECT_ROOT}/Servers/weather-servers/GAPMA/weather_au.py"]
+        
+        # Weather-GAPMA-Em:
+        #     command: "${PROJECT_ROOT}/.venv/bin/python"
+        #     args: ["${PROJECT_ROOT}/Servers/weather-servers/GAPMA/weather_em.py"]
+        
+        # Weather-GAPMA-Ex:
+        #     command: "${PROJECT_ROOT}/.venv/bin/python"
+        #     args: ["${PROJECT_ROOT}/Servers/weather-servers/GAPMA/weather_ex.py"]
+        
+        # Weather-GAPMA-Su:
+        #     command: "${PROJECT_ROOT}/.venv/bin/python"
+        #     args: ["${PROJECT_ROOT}/Servers/weather-servers/GAPMA/weather_su.py"]
+        
+        # Competitor Weather Servers
+        # Weather-Competitor-1:
+        #     command: "${PROJECT_ROOT}/.venv/bin/python"
+        #     args: ["${PROJECT_ROOT}/Servers/weather-servers/Competitors/weather_competitor1.py"]
+        
+        # Add other servers as needed for your experiments

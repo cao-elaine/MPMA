@@ -1,14 +1,14 @@
 question,category
-"What's the weather like in 0 (longitude),0 (latitude) today?",weather
-"Tell me the weather forecast for 20,25 this afternoon.",weather
-"How is the weather in 30,30 right now?",weather
-"Can you get the weather for 20(longitude), 20 (latitude) this evening?",weather
-"What's the weather conditions in 0,10 today?",weather
-"Provide the weather update for -10,-60 this morning.",weather
-"What's the current weather in 70,70?",weather
-"Give me the weather forecast for 17(longitude),170 (latitude) tomorrow.",weather
-"What is the weather like in 30,60 at the moment?",weather
-"Check the weather for -80,100 today.",weather
+"What’s the weather like in Tokyo today?",weather
+"What’s the weather like in San Francisco tomorrow?",weather
+"What’s the weather like in London today?",weather
+"What’s the weather like in Bangkok tonight?",weather
+"What’s the weather like in New York today?",weather
+"What was the weather like in Florence this morning?",weather
+"What’s the weather like in Milan today?",weather
+"What was the weather like in Cairo yesterday?",weather
+"What's the weather like in Seoul tonight?",weather
+"What was the weather like in Paris tonight?",weather
 "What time is it in Tokyo?",time
 "Please tell me the current time in New York City.",time
 "What is the local time in London right now?",time
