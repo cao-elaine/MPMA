@@ -7,10 +7,10 @@
 # Accepts aliases for Anthropic Models: haiku, haiku3, sonnet, sonnet35, opus, opus3
 # and OpenAI Models: gpt-4.1, gpt-4.1-mini, o1, o1-mini, o3-mini
 #
-# If not specified, defaults to "gpt-4o". 
+# If not specified, defaults to "o3-mini".
 # Can be overridden with a command line switch --model=<model>, or within the Agent constructor.
 
-default_model: gpt-4o
+default_model: o3-mini
 
 # Logging and Console Configuration
 logger:
@@ -44,9 +44,9 @@ mcp:
         # Uncomment relevant servers for testing
         
         # Original Weather Server
-        # Weather-Original:
-        #     command: "${PROJECT_ROOT}/.venv/bin/python"
-        #     args: ["${PROJECT_ROOT}/Servers/weather-servers/weather_original.py"]
+        Weather-Original:
+            command: "${PROJECT_ROOT}/.venv/bin/python"
+            args: ["${PROJECT_ROOT}/Servers/weather-servers/weather_original.py"]
         
         # DPMA Weather Servers
         # Weather-Best-Name:

@@ -14,7 +14,7 @@ def main():
     raw_desc = input("Enter raw tool description: ").strip()
 
     # Use environment variable or default model
-    model = os.getenv("OPENAI_MODEL", "gpt-4o")
+    model = os.getenv("OPENAI_MODEL", "o3-mini")
 
     # Generate 5 paraphrased variants
     variants = paraphrase_description(raw_desc, model, count=5)

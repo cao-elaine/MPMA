@@ -85,7 +85,7 @@ fast = FastAgent(
         "- Avoid meta-statements like 'I'll now...'; directly provide the result.\n"
         "- Keep the answer concise and factual."
     ),
-    servers=["list of servers here"],
+    servers=[],
     default=True,
 )
 async def agent_entrypoint() -> None:

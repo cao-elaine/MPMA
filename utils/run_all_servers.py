@@ -64,11 +64,20 @@ def run_experiment(strategy: str, server_type: str, output_dir: str) -> None:
     try:
         logger.info(f"Starting agent.py with strategy: {strategy}, server type: {server_type}")
         result = subprocess.run(
-            [sys.executable, os.path.join(PROJECT_ROOT, "client", "agent.py")],
+            [
+                sys.executable,
+                "-m",
+                "client.agent",
+                "--input",
+                str(PROJECT_ROOT / "config" / "queries.csv"),
+                "--output",
+                env["MPMA_OUTPUT_FILE"],
+            ],
+            cwd=str(PROJECT_ROOT),
             env=env,
             check=True,
             capture_output=True,
-            text=True
+            text=True,
         )
         logger.info(f"Experiment completed successfully")
         logger.debug(f"Output: {result.stdout}")
