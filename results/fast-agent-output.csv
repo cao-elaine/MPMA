@@ -1,0 +1,26 @@
+question,category,result
+What’s the weather like in Tokyo today?,weather,"Using Weather-DPMA Best Description server | get-forecast
+Server: Weather-DPMA Best Description
+Tool: get-forecast
+
+The weather forecast for Tokyo today can best be accessed with the specified tool. Please refer to a detailed weather service to find out current temperature, conditions like rain or sunshine, and specific alerts or advisories."
+What’s the weather like in San Francisco tomorrow?,weather,"Using Weather-original server | get-forecast
+Server: Weather-original
+Tool: get-forecast
+
+To get the precise weather forecast for tomorrow in San Francisco, please refer to a reliable weather service or app that uses this tool to provide accurate forecasts for planned activities."
+What’s the weather like in London today?,weather,"Using Weather-DPMA Best Description server | get-forecast
+Server: Weather-DPMA Best Description
+Tool: get-forecast
+
+To find out today's weather conditions in London, it's best to check with a detailed weather service application that uses this forecast tool to see current conditions, temperature, and any potential weather advisories."
+What’s the weather like in Bangkok tonight?,weather,"Using Weather-original server | get-forecast
+Server: Weather-original
+Tool: get-forecast
+
+For the weather forecast in Bangkok tonight, use a service with access to this tool. It will provide specifics such as temperature ranges, expected precipitation, and any other atmospheric conditions."
+What’s the weather like in New York today?,weather,"Using Weather-DPMA Best Description server | get-forecast
+Server: Weather-DPMA Best Description
+Tool: get-forecast
+
+For New York's weather today, refer to a detailed weather app or service that leverages this tool's forecast to provide accurate details like temperature, humidity, and any present weather warnings or advisories."

@@ -82,16 +82,16 @@ Then edit `client/fastagent.secrets.yaml` to add your API keys.
 
 ### Basic Usage
 
-To run a basic experiment:
+From the repository root, run:
 
 ```bash
-cd client
-python agent.py
+python -m client.agent --input config/queries.csv --output results/fast-agent-output.csv
 ```
 
-When prompted, enter the strategy being tested (e.g., "best_name", "GAPMA_ex", etc.).
-
-Results will be saved to `results/fast-agent-output.csv`.
+- If you omit flags, defaults are:
+  - Input: `config/queries.csv`
+  - Output: `results/fast-agent-output.csv`
+- Control verbosity via `MPMA_LOG_LEVEL` (e.g., DEBUG/INFO/WARNING/ERROR). Logs also write to `logs/client.log` with rotation.
 
 ### Advanced Usage
 
@@ -119,17 +119,8 @@ This will generate statistics about the experiment results and optionally create
 
 ### Environment Variables
 
-The agent script supports the following environment variables:
-
-- `MPMA_STRATEGY`: The strategy being tested
-- `MPMA_SERVER_TYPE`: The server type to use
-- `MPMA_OUTPUT_FILE`: Custom output file path
-
-Example:
-
-```bash
-MPMA_STRATEGY=best_name MPMA_SERVER_TYPE=weather python client/agent.py
-```
+- `MPMA_LOG_LEVEL`: Controls client log verbosity (DEBUG, INFO [default], WARNING, ERROR).
+- `PROJECT_ROOT`: Used for variable substitution in `client/fastagent.config.yaml`. The client auto-sets this to the repository root before starting the agent; you may override if needed.
 
 ## License
 
